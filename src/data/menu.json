@@ -1,0 +1,213 @@
+{
+  "restaurant": {
+    "name": "MUSAS DEL BOSQUE",
+    "subtitle": "Menú",
+    "socialMedia": "@MUSAS.DEL.BOSQUE"
+  },
+  "sections": [
+    {
+      "id": "cafe",
+      "title": "Café",
+      "items": [
+        {
+          "id": "espresso",
+          "name": "Espresso",
+          "price": 40,
+          "size": null
+        },
+        {
+          "id": "cortado",
+          "name": "Cortado",
+          "price": 45,
+          "size": null
+        },
+        {
+          "id": "americano",
+          "name": "Americano",
+          "price": 48,
+          "size": "10oz"
+        },
+        {
+          "id": "flat-white",
+          "name": "Flat White",
+          "price": 55,
+          "size": "6oz"
+        },
+        {
+          "id": "capuccino",
+          "name": "Capuccino",
+          "price": 60,
+          "size": "8oz"
+        },
+        {
+          "id": "latte",
+          "name": "Latte",
+          "price": 65,
+          "size": "10oz"
+        },
+        {
+          "id": "mocca",
+          "name": "Mocca",
+          "price": 70,
+          "size": "10oz"
+        }
+      ]
+    },
+    {
+      "id": "sin-cafeina",
+      "title": "Sin cafeína",
+      "subtitle": "(10oz)",
+      "items": [
+        {
+          "id": "chai",
+          "name": "Chai",
+          "price": 65,
+          "size": "10oz"
+        },
+        {
+          "id": "matcha",
+          "name": "Matcha",
+          "price": 67,
+          "size": "10oz"
+        },
+        {
+          "id": "horchata",
+          "name": "Horchata",
+          "price": 63,
+          "size": "10oz"
+        },
+        {
+          "id": "chocolate",
+          "name": "Chocolate",
+          "price": 77,
+          "size": "10oz"
+        },
+        {
+          "id": "tes-infusiones",
+          "name": "Tés e infusiones",
+          "price": 50,
+          "size": "10oz"
+        }
+      ]
+    },
+    {
+      "id": "elixires-botanicos",
+      "title": "ELIXIRES BOTÁNICOS",
+      "subtitle": "(16oz)",
+      "items": [
+        {
+          "id": "te-frio-burbujas",
+          "name": "Té frío con burbujas",
+          "description": "Iced tea with bubbles",
+          "price": 67,
+          "size": "16oz"
+        },
+        {
+          "id": "soda-italiana",
+          "name": "Soda italiana",
+          "description": "Italian soda",
+          "price": 50,
+          "size": "16oz"
+        },
+        {
+          "id": "horchata-caramel",
+          "name": "Horchata caramel",
+          "description": "Caramel horchata",
+          "price": 70,
+          "size": "16oz"
+        },
+        {
+          "id": "lemon-tonic",
+          "name": "Lemon tonic",
+          "price": 85,
+          "size": "16oz"
+        }
+      ]
+    },
+    {
+      "id": "frappes",
+      "title": "FRAPPÉS",
+      "subtitle": "(16oz)",
+      "items": [
+        {
+          "id": "tajin-maracuya",
+          "name": "Tajín maracuyá",
+          "description": "Tajin passion fruit",
+          "price": 60,
+          "size": "16oz"
+        },
+        {
+          "id": "tisana",
+          "name": "Tisana",
+          "description": "Herbal tea",
+          "price": 89,
+          "size": "16oz"
+        },
+        {
+          "id": "capuccino-frappe",
+          "name": "Capuccino",
+          "price": 89,
+          "size": "16oz"
+        },
+        {
+          "id": "mocca-frappe",
+          "name": "Mocca",
+          "price": 89,
+          "size": "16oz"
+        },
+        {
+          "id": "oreo-frappe",
+          "name": "Oreo",
+          "price": 89,
+          "size": "16oz"
+        },
+        {
+          "id": "taro-frappe",
+          "name": "Taro",
+          "price": 89,
+          "size": "16oz"
+        }
+      ]
+    },
+    {
+      "id": "extras",
+      "title": "Extras",
+      "items": [
+        {
+          "id": "shot-espresso",
+          "name": "Shot de espresso",
+          "description": "Espresso shot",
+          "price": 20,
+          "size": null
+        },
+        {
+          "id": "shot-leche",
+          "name": "Shot de leche",
+          "description": "Milk shot",
+          "price": 10,
+          "size": null
+        },
+        {
+          "id": "extra-caramelo",
+          "name": "Extra de caramelo",
+          "description": "Extra caramel",
+          "price": 15,
+          "size": null
+        },
+        {
+          "id": "topo-chico",
+          "name": "Topo Chico vidrio",
+          "description": "Topo Chico glass bottle",
+          "price": 40,
+          "size": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "text": "Haz tu bebida fría por $12",
+      "subtext": "(16oz)"
+    }
+  ]
+}
