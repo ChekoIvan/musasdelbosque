@@ -6,9 +6,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  // Replace 'musasdelbosque' with your actual repository name
-  basePath: '/musasdelbosque',
-  assetPrefix: '/musasdelbosque/',
 };
 
 export default nextConfig;
