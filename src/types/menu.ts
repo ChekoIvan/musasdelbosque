@@ -21,6 +21,7 @@ export interface MenuNote {
 export interface Restaurant {
   name: string;
   subtitle: string;
+  description?: string;
   socialMedia: string;
 }
 

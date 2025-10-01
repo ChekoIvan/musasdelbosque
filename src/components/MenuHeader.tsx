@@ -15,9 +15,16 @@ export default function MenuHeader({ restaurant }: MenuHeaderProps) {
       </h1>
       
       {/* Menu Title */}
-      <h2 className="text-6xl md:text-7xl font-bold text-green-900 mb-8">
+      <h2 className="text-6xl md:text-7xl font-bold text-green-900 mb-6">
         {restaurant.subtitle}
       </h2>
+      
+      {/* Description */}
+      {restaurant.description && (
+        <p className="text-xl md:text-2xl text-green-700 font-medium italic mb-8 max-w-4xl mx-auto leading-relaxed">
+          {restaurant.description}
+        </p>
+      )}
       
       {/* Social Media */}
       <div className="text-right">
