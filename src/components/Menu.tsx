@@ -17,8 +17,13 @@ export default function Menu({ data }: MenuProps) {
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-green-100 relative overflow-hidden">
       <div className="relative z-10 max-w-4xl mx-auto px-6 py-12">
         <MenuHeader restaurant={data.restaurant} />
-
-        <div className="space-y-12 mt-16">
+        {/* Menu Title */}
+        <h1
+          className="text-center text-6xl md:text-7xl font-bold text-green-900"
+        >
+          Menú
+        </h1>
+        <div className="space-y-12 mt-8">
           <MenuSection key={coffee.id} section={coffee} />
           <MenuNotes notes={data.notes} />
           {rest.map((section) => (

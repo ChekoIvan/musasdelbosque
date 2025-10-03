@@ -14,8 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Musas del Bosque - Menú",
-  description: "Entre flores, café y aromas encuentra la conexión contigo con la tierra y la magia de lo cotidiano. Café artesanal con elixires botánicos únicos.",
-  keywords: "café, elixires botánicos, frappés, té, horchata, matcha, chai, café artesanal",
+  description:
+    "Entre flores, café y aromas encuentra la conexión contigo con la tierra y la magia de lo cotidiano. Café artesanal con elixires botánicos únicos.",
+  keywords:
+    "café, elixires botánicos, frappés, té, horchata, matcha, chai, café artesanal",
   authors: [{ name: "Musas del Bosque" }],
   creator: "Musas del Bosque",
   publisher: "Musas del Bosque",
@@ -26,7 +28,8 @@ export const metadata: Metadata = {
     url: "https://musasdelbosque.com",
     siteName: "Musas del Bosque",
     title: "Musas del Bosque - Menú",
-    description: "Entre flores, café y aromas encuentra la conexión contigo con la tierra y la magia de lo cotidiano. Café artesanal con elixires botánicos únicos.",
+    description:
+      "Entre flores, café y aromas encuentra la conexión contigo con la tierra y la magia de lo cotidiano.",
     images: [
       {
         url: "https://musasdelbosque.com/og-image.jpg",
@@ -41,7 +44,8 @@ export const metadata: Metadata = {
     site: "@MUSAS.DEL.BOSQUE",
     creator: "@MUSAS.DEL.BOSQUE",
     title: "Musas del Bosque - Menú",
-    description: "Entre flores, café y aromas encuentra la conexión contigo con la tierra y la magia de lo cotidiano. Café artesanal con elixires botánicos únicos.",
+    description:
+      "Entre flores, café y aromas encuentra la conexión contigo con la tierra y la magia de lo cotidiano.",
     images: ["https://musasdelbosque.com/twitter-image.jpg"],
   },
   viewport: "width=device-width, initial-scale=1",
