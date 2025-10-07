@@ -10,9 +10,11 @@ export default function MenuHeader({ restaurant }: MenuHeaderProps) {
   return (
     <div className="text-center mb-16">
       {/* Restaurant Name */}
-      <h1 className="text-4xl md:text-5xl font-serif text-green-800 mb-4 transform -rotate-1">
-        {restaurant.name}
-      </h1>
+      <img
+        src="/logo.png"
+        alt={restaurant.name}
+        className="w-full mx-auto mb-4"
+      />
       <h3 className="text-green-700 mb-4">{restaurant.subtitle}</h3>
       {/* Description */}
       {restaurant.description && (
